@@ -13,7 +13,7 @@ h2 {
 html{
     background-color: #e6eff6;
     font-family: 'Roboto', sans-serif;
-    font-size: 13px;
+    font-size: 14px;
     color: rgb(84, 84, 84);
     text-align: center;
 }
@@ -27,7 +27,7 @@ main{
 }
 
 h2{
-    font-size: 18px;
+    font-size: 20px;
     margin-top: 20px;
 }
 
@@ -70,12 +70,14 @@ a:hover + hr{
 
 p.mb{
     margin-bottom: 20px;
+    line-height: 1.5em;
+    
 }
 
 .container{
     display: grid;
-    grid-template-columns: repeat(4, 250px);
-    grid-template-rows: repeat(2, 320px);
+    grid-template-columns: repeat(4, 260px);
+    grid-template-rows: repeat(2, 370px);
     grid-gap: 20px;
 }
 
