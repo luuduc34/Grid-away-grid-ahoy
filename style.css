@@ -13,7 +13,7 @@ h2 {
 html{
     background-color: #e6eff6;
     font-family: 'Roboto', sans-serif;
-    font-size: 10px;
+    font-size: 12px;
     color: rgb(84, 84, 84);
     text-align: center;
 }
@@ -27,7 +27,7 @@ main{
 }
 
 h2{
-    font-size: 14px;
+    font-size: 18px;
     margin-top: 20px;
 }
 
@@ -74,12 +74,12 @@ p.mb{
 
 .container{
     display: grid;
-    grid-template-columns: repeat(4, 200px);
-    grid-template-rows: repeat(2, 290px);
+    grid-template-columns: repeat(4, 250px);
+    grid-template-rows: repeat(2, 320px);
     grid-gap: 20px;
 }
 
-div.in{
+div{
     padding: 20px;
     background-color: white;
     border-radius: 4px;
@@ -96,5 +96,5 @@ div:hover{
 }
 
 .icons{
-    width: 60px;
+    width: 80px;
 }
