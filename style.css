@@ -1,0 +1,96 @@
+html,
+body,
+div,
+head,
+main,
+footer,
+h1,
+h2 {
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    background-color: #e6eff6;
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+    color: rgb(84, 84, 84);
+    text-align: center;
+}
+
+main{
+    width: 860px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+h2{
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+h2.hemp{
+    padding: 8px 0 8px 0;
+}
+
+hr{
+    width: 40px;
+    border-top: 1px solid #bbb;
+    margin-bottom: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(84, 84, 84);
+    font-weight: 700;       
+}
+
+a:hover{
+    border-radius: 20px;
+    background-color: #48a9f7;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    padding: 8px 15px;
+    box-shadow: 1px 2px 10px #48a9f7;
+}
+
+a:hover + hr{
+    /* border-radius: 20px;
+    background-color: #48a9f7;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    padding: 8px 15px;
+    box-shadow: 1px 2px 10px #48a9f7; */
+    display: none;
+}
+
+p.mb{
+    margin-bottom: 20px;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(4, 200px);
+    grid-template-rows: repeat(2, 290px);
+    grid-gap: 20px;
+}
+
+div{
+    padding: 20px;
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: 2px 2px 10px #c0c0c0;
+}
+
+div:hover{
+    padding: 20px;
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: 0px 5px 15px #a0a0a0;
+}
+
+.icons{
+    width: 60px;
+}
