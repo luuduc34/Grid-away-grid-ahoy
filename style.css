@@ -17,11 +17,13 @@ html{
     color: rgb(84, 84, 84);
     text-align: center;
 }
+body{    
+    display: inline-block;
+}
 
 main{
-    width: 860px;
-    margin: auto;
     margin-top: 50px;
+    display: inline-block;
 }
 
 h2{
@@ -77,11 +79,13 @@ p.mb{
     grid-gap: 20px;
 }
 
-div{
+div.in{
     padding: 20px;
     background-color: white;
     border-radius: 4px;
     box-shadow: 2px 2px 10px #c0c0c0;
+    justify-self: center;
+    float: left;
 }
 
 div:hover{
